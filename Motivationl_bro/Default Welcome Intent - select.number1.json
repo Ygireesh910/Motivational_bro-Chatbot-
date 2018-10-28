@@ -1,0 +1,99 @@
+{
+  "id": "ee5d288b-a94f-411d-ab86-5a4dc706421d",
+  "parentId": "cd465efc-4ad7-4a73-8abf-07d0093e04e6",
+  "rootParentId": "cd465efc-4ad7-4a73-8abf-07d0093e04e6",
+  "name": "Default Welcome Intent - select.number1",
+  "auto": true,
+  "contexts": [
+    "DefaultWelcomeIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-selectnumber",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "173fa458-40f4-4450-b993-79e691003b34",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "so you have chosen 1"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1530446185,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "ccba3151-ceb0-413b-8cdf-da2f6d618571",
+      "data": [
+        {
+          "text": "1st",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "one",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1530446185,
+      "isAuto": false
+    },
+    {
+      "id": "8c26690e-db70-4987-baca-4a7c8e0bf572",
+      "data": [
+        {
+          "text": "1"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1530446185,
+      "isAuto": false
+    },
+    {
+      "id": "9a4f2e43-0cd7-4a2d-abf0-d2bb14bcecf6",
+      "data": [
+        {
+          "text": "Its "
+        },
+        {
+          "text": "1",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1530446185,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "templates": []
+}

@@ -1,0 +1,157 @@
+{
+  "id": "0452f7b7-18ca-4074-8095-017aa8538c03",
+  "parentId": "cd465efc-4ad7-4a73-8abf-07d0093e04e6",
+  "rootParentId": "cd465efc-4ad7-4a73-8abf-07d0093e04e6",
+  "name": "Default Welcome Intent - select.number3",
+  "auto": true,
+  "contexts": [
+    "DefaultWelcomeIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-selectnumber",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "3ada3c41-8ee3-49dd-9f6a-20196806c040",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "If lucky be not proud , if unlucky do not depressed by the loss of hope.",
+            "There is no lucky or unlucky according to me,  if you really work hard then you surely achieve the success , you have to wait for the moment.",
+            "Be with patience . Sometimes you have to go through the worst to get the best.",
+            "Don't be prisoner of the past , be the architect of the future.",
+            "Don't depend on luck, depend on hard work .",
+            "You are the author for your next chapter.",
+            "If you don't struggle, you don't improve.",
+            "Learn to fight alone.",
+            "Never explain yourself to anyone.The person who likes you doesn't need it.The person who dislikes you won't believe it.",
+            "Today's generation logic: Low pitch of voice is always considered \"FAKE\". Shout out load,lose temper and only then , you'll be considered \"REAL\".",
+            "Fears can be controlled, but tears never lie.",
+            "\"The Sun watches what i do, but the Moon knows all my secrets.\"",
+            "Don't sacrifice your time for people who wouldn't do the same for you.",
+            "Sometimes you need to stand alone to stand out.",
+            "Don't quit . You are already in pain. You're already hurt. Get a reward from it.",
+            "Don't think too much! just do what makes you happy!",
+            "May your haters live long to see your success!",
+            "\"I really hate when i'm in good mood and suddenly bad happens and ruins everything.\"",
+            "\"If you have been hurt many times and you still know how to smile , trust me you are \"Damn\" strong.\"",
+            "\"I don't respect those who don't respect me. You may call it selfish but i call it self respect.\"",
+            "Never beg anyone , Never trust anyone, Never depend on anyone."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1530807094,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "GOOGLE_ASSISTANT_WELCOME"
+    }
+  ],
+  "userSays": [
+    {
+      "id": "e311104a-b8d7-436a-a195-fe6662033a4f",
+      "data": [
+        {
+          "text": "i opt for "
+        },
+        {
+          "text": "three",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1530807094,
+      "isAuto": false
+    },
+    {
+      "id": "d2f29cb0-41ca-477c-81fa-c33abd13a0d6",
+      "data": [
+        {
+          "text": "3",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1530807094,
+      "isAuto": false
+    },
+    {
+      "id": "21b2b393-5de1-4d20-ac66-a34c6efc52a4",
+      "data": [
+        {
+          "text": "i  will choose "
+        },
+        {
+          "text": "3",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1530807094,
+      "isAuto": false
+    },
+    {
+      "id": "b2151899-4fc2-4b2d-b772-41057ce2339e",
+      "data": [
+        {
+          "text": "three",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1530807094,
+      "isAuto": false
+    },
+    {
+      "id": "22291d97-c352-43b0-842e-d2691eec4e72",
+      "data": [
+        {
+          "text": "its "
+        },
+        {
+          "text": "3",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1530807094,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": true,
+  "templates": []
+}

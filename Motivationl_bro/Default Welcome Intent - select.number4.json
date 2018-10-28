@@ -1,0 +1,134 @@
+{
+  "id": "76e16687-2e85-4e4e-9717-58f54c0722cf",
+  "parentId": "cd465efc-4ad7-4a73-8abf-07d0093e04e6",
+  "rootParentId": "cd465efc-4ad7-4a73-8abf-07d0093e04e6",
+  "name": "Default Welcome Intent - select.number4",
+  "auto": true,
+  "contexts": [
+    "DefaultWelcomeIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-selectnumber",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "be5ca348-dbc3-4c77-abb4-2ad3fab2555d",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Sometimes it's better to be alone. Nobody can hurt you!",
+            "Love is hard to keep, hard to find and hard to forget.",
+            "Sometimes it will be good if you concentrate on what really have a value.",
+            "Confidence is not \"will they like me?\" confidence is more \"I'll be fine if they don't!\".",
+            "Don't be the prisoner of your past, be the architect of your future.",
+            "A hungry stomach, an empty  wallet and a broken heart will teach you the most valuable lessons in your life.",
+            "The cost of not following your heart, is spending rest of your life wishing you had.",
+            "It's okay, you're in a phase of your life where you feel unsure and lost . It's part of your path.Don't get depressed.",
+            "Sometimes life is about risking everything for a dream no one can see but you.",
+            "When you delete unnecessary people from your life, good things will start happening for you.",
+            "\"I'm 97% sure you don't like me, but i'm 100% sure i don't care.\"",
+            "Life's best teachers:Heart breaks, empty pockets and failures.",
+            "\"I was prepared to fight for us , but then i realized i was fighting alone.\"",
+            "Never let the same person waste your time twice.",
+            "For all those having hard time right now , remember it is temporary.",
+            "Self love is the greatest medicine.",
+            "Fear is an illusion.",
+            "Please don't ask me if i'm fine cause i,m tired of lying and saying iam",
+            "Weak people revenge. Strong people Forgive. Intelligent people ignore.",
+            "\"If you have been hurt many times and you still know how to smile , trust me you are \"Damn\" strong.\""
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1530807129,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "7da0fa00-4716-4560-afa3-174d4405ecbb",
+      "data": [
+        {
+          "text": "4",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1530806132,
+      "isAuto": false
+    },
+    {
+      "id": "1aa7194e-004b-494f-a3e9-2b747e036b79",
+      "data": [
+        {
+          "text": "i opt for "
+        },
+        {
+          "text": "four",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1530806132,
+      "isAuto": false
+    },
+    {
+      "id": "6e342500-e6a7-466d-bddf-6b1ef0b98988",
+      "data": [
+        {
+          "text": "i will go with "
+        },
+        {
+          "text": "4",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1530806132,
+      "isAuto": false
+    },
+    {
+      "id": "1b0b9f1e-685d-496d-bcd8-7328cbcdc6c4",
+      "data": [
+        {
+          "text": "four",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1530806132,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": true,
+  "templates": []
+}

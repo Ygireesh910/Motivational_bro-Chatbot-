@@ -1,0 +1,178 @@
+{
+  "id": "b31fa447-da48-468f-b1f3-cd17e584b960",
+  "parentId": "cd465efc-4ad7-4a73-8abf-07d0093e04e6",
+  "rootParentId": "cd465efc-4ad7-4a73-8abf-07d0093e04e6",
+  "name": "Default Welcome Intent - select.number2",
+  "auto": true,
+  "contexts": [
+    "DefaultWelcomeIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-selectnumber",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "4f4dc88f-b532-4e82-90e8-dbef52b0708f",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Whatever you do , do it with determination. Don't get depressed with the marks. Be passionate to achieve your best version.",
+            "Success is Science, if you have the conditions , you get a better result.",
+            "The highest result of education is Tolerance.",
+            "Your exam results do not define you as a person.",
+            "A single sheet of paper can't decide your future.",
+            "Don't be the prisoner of your past , be the architect of your future.",
+            "Be the energy you want to attract.",
+            "Over thinking kills your happiness.",
+            "Everyone has bad days . But only few turn them into good lessons.",
+            "In the middle of every difficulty , lies an opportunity.",
+            "People with the worst past will create the best future.",
+            "Don't compare yourself with anyone in this world. If you do so. you are insulting yourself",
+            "Good things take time.Wait with patience.",
+            "Once you have accepted your flaws no one can use them against you.",
+            "It's okay, you're in a phase of your life where you feel unsure and lost . It's part of your path.Don't get depressed",
+            "Never let your fear decide your future.",
+            "Do more what makes you happy.",
+            "Never give up your journey , even though there are lots of ups and downs.",
+            "\"If you have been hurt many times and you still know how to smile , trust me you are \"Damn\" strong.\""
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1531641637,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "58a94574-0460-4ceb-ae9b-232a874c41e7",
+      "data": [
+        {
+          "text": "two",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1531641637,
+      "isAuto": false
+    },
+    {
+      "id": "9fe4b9ab-cb12-4db9-b110-314cbe09ba2f",
+      "data": [
+        {
+          "text": "I'm choosing "
+        },
+        {
+          "text": "2",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1530806659,
+      "isAuto": false
+    },
+    {
+      "id": "9d3ae176-3158-4c4f-a966-057e37b62d36",
+      "data": [
+        {
+          "text": "too"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1531641637,
+      "isAuto": false
+    },
+    {
+      "id": "c5644177-7889-481a-aed8-60f3ef2fe30b",
+      "data": [
+        {
+          "text": "its "
+        },
+        {
+          "text": "2",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1530806659,
+      "isAuto": false
+    },
+    {
+      "id": "b7a5a19d-6c73-4584-92d9-5ad01f58772f",
+      "data": [
+        {
+          "text": "show me the "
+        },
+        {
+          "text": "second",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": false
+        },
+        {
+          "text": " one"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1530806659,
+      "isAuto": false
+    },
+    {
+      "id": "1f441225-c137-4c3a-8231-59229d95661e",
+      "data": [
+        {
+          "text": "2",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1530806659,
+      "isAuto": false
+    },
+    {
+      "id": "6d2caff2-8c62-40e0-8ac6-7f7e4e4f6131",
+      "data": [
+        {
+          "text": "to"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1530806659,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": true,
+  "templates": []
+}

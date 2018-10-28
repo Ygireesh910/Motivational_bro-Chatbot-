@@ -1,0 +1,153 @@
+{
+  "id": "ee5d288b-a94f-411d-ab86-5a4dc706421d",
+  "parentId": "cd465efc-4ad7-4a73-8abf-07d0093e04e6",
+  "rootParentId": "cd465efc-4ad7-4a73-8abf-07d0093e04e6",
+  "name": "Default Welcome Intent - select.number1",
+  "auto": true,
+  "contexts": [
+    "DefaultWelcomeIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-selectnumber",
+      "affectedContexts": [
+        {
+          "name": "DefaultWelcomeIntent-selectnumber1-followup",
+          "parameters": {},
+          "lifespan": 22
+        }
+      ],
+      "parameters": [
+        {
+          "id": "173fa458-40f4-4450-b993-79e691003b34",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "prompts": [
+            "choose a number"
+          ],
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "One of the hardest things you will ever have to do my dear, is to grieve the loss of person who is still alive.",
+            "Sometimes our fear of loosing someone makes us loose ourself.",
+            "You lose yourself trying to hold on to someone who doesn't care losing you.",
+            "Don't be afraid of losing someone who doesn't feel lucky to have you.",
+            "Don't be the prisoner of your past, be the architect of your future.",
+            "Once in a life time  you will meet a person who changes everything in your life",
+            "Standing alone is better than standing with people who don't value you.",
+            "Warriors are not the one who always win, but the one who always fight.",
+            "If people don't hate you then you probably not doing very big things!",
+            "Let it hurt , let it bleed , let it heal and let it go.",
+            "\"I hate two faced people as it makes harder for me to decide on which face i have to slap first.\"",
+            "\"Criticize me when you are at my level, until then you may just admire.\"",
+            "Be a good person and don't take time to prove it.",
+            "Vanish your distractions , feed your focus.",
+            "\"I don't care about people who judge me. I'm just going to do whatever makes me happy.\"",
+            "Everyone you meet everyday is fighting a battle you know nothing about. Be kind . Always.",
+            "Only those who care about you will hear you when you're quiet.",
+            "Don't tell people your plans . Show them your results.",
+            "People change , things happen , nothing ever stays the same.",
+            "\"My attitude is based on how you treat me\"",
+            "\"If you have been hurt many times and you still know how to smile , trust me you are \"Damn\" strong.\""
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1530807491,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "e0fe0843-0c99-4cb6-a5b7-3fb3fe71caf9",
+      "data": [
+        {
+          "text": "Its "
+        },
+        {
+          "text": "1",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1530807491,
+      "isAuto": false
+    },
+    {
+      "id": "76f49b9a-97c3-460b-b9d0-7ffb9e2cb84d",
+      "data": [
+        {
+          "text": "1st",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "one",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1530807491,
+      "isAuto": false
+    },
+    {
+      "id": "2e7c4cd0-9129-4498-a71d-4d6c55360079",
+      "data": [
+        {
+          "text": "I'm choosing "
+        },
+        {
+          "text": "1",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1530807491,
+      "isAuto": false
+    },
+    {
+      "id": "fd5d840f-292b-46a0-9baa-9d02e746ba8b",
+      "data": [
+        {
+          "text": "1",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1530807491,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": true,
+  "templates": []
+}
